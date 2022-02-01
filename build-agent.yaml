@@ -33,7 +33,7 @@ spec:
       volumeMounts:
         - name: jenkins-docker-cfg
           mountPath: /kaniko/.docker 
-   - name: trufflehog
+    - name: trufflehog
       image: rmkanda/trufflehog
       command:
         - cat
